@@ -22,6 +22,7 @@
 		14F09933B7CC00C29B301DB5 /* Notch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notch.entitlements; sourceTree = "<group>"; };
 		1AA7B1EA64AF39B6F66CD11A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		29FD9C62BDFA6888A2981BF9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		384592DC2AEEC07ADC0CA0B1 /* Notch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notch.entitlements; sourceTree = "<group>"; };
 		56E339B179F4CC13876F792F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5DC3B9C0245B7BE34084C199 /* NotchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchService.swift; sourceTree = "<group>"; };
 		61156111A926C7405F6F573C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +41,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5B11E3B4F31FF858883B32A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				384592DC2AEEC07ADC0CA0B1 /* Notch.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		98FCFA7BF6FB824D787089D3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +62,7 @@
 				E0B78DE7A608082B7FC1A827 /* SettingsStore.swift */,
 				29FD9C62BDFA6888A2981BF9 /* Theme.swift */,
 				BF5F7819C2369FFF3CC95B0A /* WeatherService.swift */,
+				5B11E3B4F31FF858883B32A2 /* Resources */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -94,7 +104,8 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					F5F32408CC8E4D31D52696E5 = {
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -177,12 +188,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -200,15 +207,14 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = Notch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.9;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -245,12 +251,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -262,14 +264,13 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = Notch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.9;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -278,11 +279,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Sources/Notch.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.notch.Notch;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notch.app;
+				PRODUCT_NAME = Notch;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
 			};
 			name = Debug;
 		};
@@ -291,11 +301,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Sources/Notch.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.notch.Notch;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.notch.app;
+				PRODUCT_NAME = Notch;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
 			};
 			name = Release;
 		};
