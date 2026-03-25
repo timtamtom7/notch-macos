@@ -12,12 +12,14 @@
 		2510C9CC98D47DF58A12380F /* GridOverlaySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21632EBA1F8325E3FCE22675 /* GridOverlaySettingsView.swift */; };
 		321AEECC857A2E69BC13DB19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7B1EA64AF39B6F66CD11A /* ContentView.swift */; };
 		396B95F244941B01F37AB8DF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E339B179F4CC13876F792F /* main.swift */; };
+		3D47BA7FAC2EC51BA1FAE433 /* NotchIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D068230DBE67850BF8C7D5E6 /* NotchIntents.swift */; };
 		3DB6D1DC07A05A630EE1B926 /* TimecodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA612915EF1542050171E9 /* TimecodeView.swift */; };
 		3E5A6B50EBC4452010BBCA4A /* NotchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC3B9C0245B7BE34084C199 /* NotchService.swift */; };
 		46E924BFA41EDA07EDCB1FC9 /* NotchPresetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099F2E1DB262B95BB7F11EB /* NotchPresetView.swift */; };
 		53B62D4340918286406D928C /* StreamingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745D3CE309A7552EE5978B40 /* StreamingService.swift */; };
 		6E03F8BB5D0306D0B11C8E55 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5F7819C2369FFF3CC95B0A /* WeatherService.swift */; };
 		7236DFF963183327F86A1DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61156111A926C7405F6F573C /* Assets.xcassets */; };
+		7ACA4D1938019364528C845B /* WidgetDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C31325F84510458514909D /* WidgetDataService.swift */; };
 		8A20331F0E71809C95A11320 /* StreamingSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AF78B2D556F80024DFF063 /* StreamingSettingsView.swift */; };
 		9B927978EDEAD55B781AC034 /* HistogramService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CBCFAA9A28D37E8E829911 /* HistogramService.swift */; };
 		9BB91F66D9F9E33993C67BD0 /* ManualExposureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EF9C2E07CC74D5F05050D9 /* ManualExposureView.swift */; };
@@ -39,6 +41,7 @@
 		0ACE1A8B269AAB4D918DC0EC /* ExposureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureService.swift; sourceTree = "<group>"; };
 		0DB36A6BFBBDCDDCECD56639 /* MulticameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticameraView.swift; sourceTree = "<group>"; };
 		1099F2E1DB262B95BB7F11EB /* NotchPresetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchPresetView.swift; sourceTree = "<group>"; };
+		11C31325F84510458514909D /* WidgetDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetDataService.swift; sourceTree = "<group>"; };
 		14F09933B7CC00C29B301DB5 /* Notch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notch.entitlements; sourceTree = "<group>"; };
 		1AA7B1EA64AF39B6F66CD11A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21632EBA1F8325E3FCE22675 /* GridOverlaySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridOverlaySettingsView.swift; sourceTree = "<group>"; };
@@ -60,6 +63,7 @@
 		A8CFE6305FE0D776655D84C5 /* CameraSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSettingsService.swift; sourceTree = "<group>"; };
 		B2683749C0F2B147D8397731 /* HistogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramView.swift; sourceTree = "<group>"; };
 		BF5F7819C2369FFF3CC95B0A /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		D068230DBE67850BF8C7D5E6 /* NotchIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchIntents.swift; sourceTree = "<group>"; };
 		D9CBCFAA9A28D37E8E829911 /* HistogramService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramService.swift; sourceTree = "<group>"; };
 		E0B78DE7A608082B7FC1A827 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +75,14 @@
 				6F1407BD23453DE2A470B1EF /* Notch.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		50B3F4EBC68D6E3D39809584 /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				D068230DBE67850BF8C7D5E6 /* NotchIntents.swift */,
+			);
+			path = Intents;
 			sourceTree = "<group>";
 		};
 		5B11E3B4F31FF858883B32A2 /* Resources */ = {
@@ -94,6 +106,7 @@
 				E0B78DE7A608082B7FC1A827 /* SettingsStore.swift */,
 				29FD9C62BDFA6888A2981BF9 /* Theme.swift */,
 				BF5F7819C2369FFF3CC95B0A /* WeatherService.swift */,
+				50B3F4EBC68D6E3D39809584 /* Intents */,
 				5B11E3B4F31FF858883B32A2 /* Resources */,
 				FEF83E7DED8604515B8A6DA9 /* Services */,
 				E101C0073079196A01DAD56B /* Views */,
@@ -135,6 +148,7 @@
 				4B71B8B6A1FB457D6C3514CA /* NotchRecordingService.swift */,
 				745D3CE309A7552EE5978B40 /* StreamingService.swift */,
 				02852C371A81F3C1A19D9680 /* TimecodeService.swift */,
+				11C31325F84510458514909D /* WidgetDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -217,6 +231,7 @@
 				9BB91F66D9F9E33993C67BD0 /* ManualExposureView.swift in Sources */,
 				F58654C56C6F55FFBCFB0DC3 /* MulticameraService.swift in Sources */,
 				A6317D1C68C7D879590FE78D /* MulticameraView.swift in Sources */,
+				3D47BA7FAC2EC51BA1FAE433 /* NotchIntents.swift in Sources */,
 				46E924BFA41EDA07EDCB1FC9 /* NotchPresetView.swift in Sources */,
 				EB58D2A2DE45EFAF8D6B3C9E /* NotchRecordingService.swift in Sources */,
 				3E5A6B50EBC4452010BBCA4A /* NotchService.swift in Sources */,
@@ -228,6 +243,7 @@
 				B8524049ABBC96DCFC69D575 /* TimecodeService.swift in Sources */,
 				3DB6D1DC07A05A630EE1B926 /* TimecodeView.swift in Sources */,
 				6E03F8BB5D0306D0B11C8E55 /* WeatherService.swift in Sources */,
+				7ACA4D1938019364528C845B /* WidgetDataService.swift in Sources */,
 				396B95F244941B01F37AB8DF /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
