@@ -6,12 +6,23 @@ options:
   xcodeVersion: "15.0"
   generateEmptyDirectories: true
 
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "13.0"
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGN_STYLE: Manual
+    DEVELOPMENT_TEAM: ""
+    ENABLE_HARDENED_RUNTIME: YES
+
 targets:
   Notch:
     type: application
     platform: macOS
     sources:
-      - Sources
+      - path: Sources
+        excludes:
+          - "NotchWidgets/**"
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.notch.app
@@ -20,16 +31,49 @@ targets:
         CURRENT_PROJECT_VERSION: "1"
         INFOPLIST_FILE: Sources/Info.plist
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
-        CODE_SIGN_IDENTITY: "-"
-        CODE_SIGN_STYLE: Manual
-        DEVELOPMENT_TEAM: ""
-        ENABLE_HARDENED_RUNTIME: YES
-        SWIFT_VERSION: "5.9"
-        MACOSX_DEPLOYMENT_TARGET: "13.0"
         LD_RUNPATH_SEARCH_PATHS: "@executable_path/../Frameworks"
         COMBINE_HIDPI_IMAGES: YES
+    dependencies:
+      - target: NotchWidgetsExtension
+        embed: true
     entitlements:
       path: Sources/Notch.entitlements
       properties:
-        com.apple.security.app-sandbox: false
+        com.apple.security.app-sandbox: true
         com.apple.security.network.client: true
+        com.apple.security.keychain-access-groups:
+          - $(AppIdentifierPrefix)com.notch.app
+        com.apple.security.application-groups:
+          - group.com.bou.notch
+        com.apple.developer.icloud-container-identifiers:
+          - iCloud.com.notch.app
+        com.apple.developer.icloud-services:
+          - CloudKit
+        com.apple.security.personal-information.location: true
+
+  NotchWidgetsExtension:
+    type: app-extension
+    platform: macOS
+    deploymentTarget:
+      macOS: "14.0"
+    sources:
+      - Sources/NotchWidgets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.notch.app.widgets
+        PRODUCT_NAME: NotchWidgetsExtension
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        INFOPLIST_FILE: Sources/NotchWidgets/Info.plist
+        LD_RUNPATH_SEARCH_PATHS: "@executable_path/../Frameworks @executable_path/../../../../Frameworks"
+        SKIP_INSTALL: YES
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_STYLE: Manual
+        DEVELOPMENT_TEAM: ""
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+    entitlements:
+      path: Sources/NotchWidgets/NotchWidgetsExtension.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.application-groups:
+          - group.com.bou.notch

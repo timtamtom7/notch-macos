@@ -1,0 +1,23 @@
+/* General */
+"app.name" = "Notch";
+"settings" = "Einstellungen";
+"modes" = "Modi";
+
+/* Modes */
+"mode.default" = "Standard";
+"mode.film" = "Film";
+"mode.photo" = "Foto";
+"mode.gaming" = "Spiele";
+
+/* Widget Items */
+"battery" = "Batterie";
+"weather" = "Wetter";
+"date" = "Datum";
+"time" = "Zeit";
+"calendar" = "Kalender";
+
+/* Settings */
+"appearance" = "Erscheinungsbild";
+"notifications" = "Benachrichtigungen";
+"shortcuts" = "Tastenkürzel";
+"about" = "Über";
