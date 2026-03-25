@@ -1,5 +1,6 @@
 import Foundation
 import AVFoundation
+import CoreMedia
 
 struct CameraSettings: Codable {
     var deviceId: String
@@ -111,9 +112,10 @@ final class CameraSettingsService: ObservableObject {
                 id: device.uniqueID,
                 name: device.localizedName,
                 position: position,
-                supports4K: device.formats.contains { format in
-                    format.dimensions.width >= 3840
-                }
+                supports4K: device.formats.contains(where: { format in
+                    let dims = CMVideoFormatDescriptionGetDimensions(format.formatDescription)
+                    return dims.width >= 3840
+                })
             ))
         }
 

@@ -36,19 +36,18 @@ final class HistogramService {
 
         let pixelCount = width * height
 
-        if let rgbData = data.assumingMemoryBound(to: UInt8.self) {
-            for i in 0..<pixelCount {
-                let r = Int(rgbData[i * 4])
-                let g = Int(rgbData[i * 4 + 1])
-                let b = Int(rgbData[i * 4 + 2])
+        let rgbData = data.assumingMemoryBound(to: UInt8.self)
+        for i in 0..<pixelCount {
+            let r = Int(rgbData[i * 4])
+            let g = Int(rgbData[i * 4 + 1])
+            let b = Int(rgbData[i * 4 + 2])
 
-                red[r] += 1
-                green[g] += 1
-                blue[b] += 1
+            red[r] += 1
+            green[g] += 1
+            blue[b] += 1
 
-                let lum = Int(Float(r) * 0.299 + Float(g) * 0.587 + Float(b) * 0.114)
-                luminance[min(255, lum)] += 1
-            }
+            let lum = Int(Float(r) * 0.299 + Float(g) * 0.587 + Float(b) * 0.114)
+            luminance[min(255, lum)] += 1
         }
 
         // Normalize

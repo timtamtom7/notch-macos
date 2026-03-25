@@ -26,7 +26,7 @@ struct NotchPresetView: View {
                 Image(systemName: preset.icon)
                     .font(.title2)
                     .foregroundColor(.accentColor)
-                Text(preset.name)
+                Text(preset.rawValue)
                     .font(.system(size: 13, weight: .semibold))
             }
 
