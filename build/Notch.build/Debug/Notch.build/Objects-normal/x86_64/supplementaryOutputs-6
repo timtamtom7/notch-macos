@@ -1,0 +1,23 @@
+{
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/PrivacyService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/PrivacyService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/PrivacyService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/PrivacyService.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/PrivacyService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/PrivacyService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/SettingsStore.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SettingsStore.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SettingsStore.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SettingsStore.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SettingsStore.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SettingsStore.swiftdeps"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Views/NotchSettingsView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchSettingsView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchSettingsView.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchSettingsView.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchSettingsView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchSettingsView.swiftdeps"
+  }
+}

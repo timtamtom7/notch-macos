@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'Notch' in project 'Notch'
+➜ Explicit dependency on target 'NotchWidgetsExtension' in project 'Notch'
+Target 'NotchWidgetsExtension' in project 'Notch' (no dependencies)

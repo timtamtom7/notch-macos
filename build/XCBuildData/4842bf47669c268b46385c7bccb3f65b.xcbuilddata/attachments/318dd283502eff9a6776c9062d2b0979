@@ -1,0 +1,39 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchWidgetsExtension-primary.dia",
+    "emit-module-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchWidgetsExtension-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchWidgetsExtension-primary-emit-module.dia",
+    "pch" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchWidgetsExtension-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchWidgetsExtension-primary.swiftdeps"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/NotchWidgets/BatteryWidget.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/BatteryWidget.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/BatteryWidget.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/BatteryWidget.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/BatteryWidget.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/BatteryWidget.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/BatteryWidget.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/BatteryWidget.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/BatteryWidget~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/NotchWidgets/NotchStatusWidget.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchStatusWidget.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchStatusWidget.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchStatusWidget.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchStatusWidget.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchStatusWidget.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchStatusWidget.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchStatusWidget.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchStatusWidget~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/NotchWidgets/NotchWidgetsBundle.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchWidgetsBundle.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchWidgetsBundle.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchWidgetsBundle.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchWidgetsBundle.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchWidgetsBundle.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchWidgetsBundle.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchWidgetsBundle.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/NotchWidgetsExtension.build/Objects-normal/arm64/NotchWidgetsBundle~partial.swiftmodule"
+  }
+}

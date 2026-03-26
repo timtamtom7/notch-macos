@@ -1,0 +1,30 @@
+{
+  "/Users/mauriello/Dev/notch-macos/Sources/AppDelegate.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/AppDelegate.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/AppDelegate.swiftdeps"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/ContentView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/ContentView.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/ContentView.swiftdeps"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/CameraSettingsService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/CameraSettingsService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/CameraSettingsService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/CameraSettingsService.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/CameraSettingsService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/CameraSettingsService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/ExposureService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/ExposureService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/ExposureService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/ExposureService.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/ExposureService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/arm64/ExposureService.swiftdeps"
+  }
+}

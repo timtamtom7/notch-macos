@@ -1,0 +1,23 @@
+{
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/GridOverlayService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlayService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlayService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlayService.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlayService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlayService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/HistogramService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramService.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Views/GridOverlaySettingsView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlaySettingsView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlaySettingsView.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlaySettingsView.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlaySettingsView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlaySettingsView.swiftdeps"
+  }
+}

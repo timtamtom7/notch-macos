@@ -1,0 +1,23 @@
+{
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/WidgetDataService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WidgetDataService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WidgetDataService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WidgetDataService.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WidgetDataService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WidgetDataService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Views/TimecodeView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeView.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeView.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeView.swiftdeps"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/WeatherService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WeatherService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WeatherService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WeatherService.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WeatherService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WeatherService.swiftdeps"
+  }
+}

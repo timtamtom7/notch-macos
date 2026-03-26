@@ -1,0 +1,23 @@
+{
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/StreamingService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingService.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/SubscriptionManager.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionManager.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionManager.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionManager.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionManager.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionManager.swiftdeps"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Views/StreamingSettingsView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingSettingsView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingSettingsView.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingSettingsView.dia",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingSettingsView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingSettingsView.swiftdeps"
+  }
+}

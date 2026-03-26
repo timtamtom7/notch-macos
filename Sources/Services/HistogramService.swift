@@ -24,10 +24,15 @@ final class HistogramService {
 
         let width = CVPixelBufferGetWidth(pixelBuffer)
         let height = CVPixelBufferGetHeight(pixelBuffer)
-        let bytesPerRow = CVPixelBufferGetBytesPerRow(pixelBuffer)
         let baseAddress = CVPixelBufferGetBaseAddress(pixelBuffer)
 
         guard let data = baseAddress else { return .empty }
+
+        // Only support 32-bit BGRA or 24-bit RGB buffers
+        let format = CVPixelBufferGetPixelFormatType(pixelBuffer)
+        guard format == kCVPixelFormatType_32BGRA || format == kCVPixelFormatType_24RGB else {
+            return .empty
+        }
 
         var red = Array(repeating: Float(0), count: 256)
         var green = Array(repeating: Float(0), count: 256)
@@ -36,28 +41,47 @@ final class HistogramService {
 
         let pixelCount = width * height
 
-        let rgbData = data.assumingMemoryBound(to: UInt8.self)
-        for i in 0..<pixelCount {
-            let r = Int(rgbData[i * 4])
-            let g = Int(rgbData[i * 4 + 1])
-            let b = Int(rgbData[i * 4 + 2])
+        if format == kCVPixelFormatType_32BGRA {
+            let rgbData = data.assumingMemoryBound(to: UInt8.self)
+            let bytesPerPixel = 4
+            for i in 0..<pixelCount {
+                let b = Int(rgbData[i * bytesPerPixel])
+                let g = Int(rgbData[i * bytesPerPixel + 1])
+                let r = Int(rgbData[i * bytesPerPixel + 2])
 
-            red[r] += 1
-            green[g] += 1
-            blue[b] += 1
+                red[r] += 1
+                green[g] += 1
+                blue[b] += 1
 
-            let lum = Int(Float(r) * 0.299 + Float(g) * 0.587 + Float(b) * 0.114)
-            luminance[min(255, lum)] += 1
+                let lum = Int(Float(r) * 0.299 + Float(g) * 0.587 + Float(b) * 0.114)
+                luminance[min(255, max(0, lum))] += 1
+            }
+        } else {
+            let rgbData = data.assumingMemoryBound(to: UInt8.self)
+            let bytesPerPixel = 3
+            for i in 0..<pixelCount {
+                let r = Int(rgbData[i * bytesPerPixel])
+                let g = Int(rgbData[i * bytesPerPixel + 1])
+                let b = Int(rgbData[i * bytesPerPixel + 2])
+
+                red[r] += 1
+                green[g] += 1
+                blue[b] += 1
+
+                let lum = Int(Float(r) * 0.299 + Float(g) * 0.587 + Float(b) * 0.114)
+                luminance[min(255, max(0, lum))] += 1
+            }
         }
 
         // Normalize
         let maxVal = max(red.max() ?? 1, green.max() ?? 1, blue.max() ?? 1, luminance.max() ?? 1)
         if maxVal > 0 {
+            let norm = 1.0 / maxVal
             for i in 0..<256 {
-                red[i] /= maxVal
-                green[i] /= maxVal
-                blue[i] /= maxVal
-                luminance[i] /= maxVal
+                red[i] *= norm
+                green[i] *= norm
+                blue[i] *= norm
+                luminance[i] *= norm
             }
         }
 

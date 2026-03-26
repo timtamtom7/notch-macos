@@ -1,0 +1,319 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/Notch-primary.dia",
+    "emit-module-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/Notch-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/Notch-primary-emit-module.dia",
+    "pch" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/Notch-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/Notch-primary.swiftdeps"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/AppDelegate.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/AppDelegate.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/AppDelegate.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/AppDelegate.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/AppDelegate.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/AppDelegate.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/ContentView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ContentView.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ContentView.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ContentView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ContentView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Intents/NotchIntents.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchIntents.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchIntents.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchIntents.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchIntents.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchIntents.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchIntents.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchIntents.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchIntents~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Models/NotchR12R15.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchR12R15.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchR12R15.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchR12R15.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchR12R15.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchR12R15.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchR12R15.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchR12R15.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchR12R15~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Models/SubscriptionTier.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionTier.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionTier.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionTier.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionTier.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionTier.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionTier.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionTier.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionTier~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/NotchService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchService.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchService.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/CameraSettingsService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/CameraSettingsService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/CameraSettingsService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/CameraSettingsService.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/CameraSettingsService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/CameraSettingsService.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/CameraSettingsService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/CameraSettingsService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/CameraSettingsService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/ExposureService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ExposureService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ExposureService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ExposureService.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ExposureService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ExposureService.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ExposureService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ExposureService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ExposureService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/GridOverlayService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlayService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlayService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlayService.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlayService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlayService.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlayService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlayService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlayService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/HistogramService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramService.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramService.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/MulticameraService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraService.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraService.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/NotchRecordingService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchRecordingService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchRecordingService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchRecordingService.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchRecordingService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchRecordingService.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchRecordingService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchRecordingService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchRecordingService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/PrivacyService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/PrivacyService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/PrivacyService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/PrivacyService.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/PrivacyService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/PrivacyService.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/PrivacyService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/PrivacyService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/PrivacyService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/StreamingService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingService.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingService.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/SubscriptionManager.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionManager.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionManager.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionManager.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionManager.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionManager.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionManager.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionManager.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SubscriptionManager~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/TimecodeService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeService.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeService.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/WidgetDataService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WidgetDataService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WidgetDataService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WidgetDataService.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WidgetDataService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WidgetDataService.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WidgetDataService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WidgetDataService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WidgetDataService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Services/iCloudSyncService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/iCloudSyncService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/iCloudSyncService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/iCloudSyncService.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/iCloudSyncService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/iCloudSyncService.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/iCloudSyncService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/iCloudSyncService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/iCloudSyncService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/SettingsStore.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SettingsStore.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SettingsStore.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SettingsStore.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SettingsStore.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SettingsStore.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SettingsStore.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SettingsStore.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/SettingsStore~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Theme.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/Theme.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/Theme.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/Theme.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/Theme.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/Theme.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/Theme.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/Theme.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/Theme~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Views/GridOverlaySettingsView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlaySettingsView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlaySettingsView.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlaySettingsView.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlaySettingsView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlaySettingsView.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlaySettingsView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlaySettingsView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GridOverlaySettingsView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Views/HistogramView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramView.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramView.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramView.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/HistogramView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Views/ManualExposureView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ManualExposureView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ManualExposureView.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ManualExposureView.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ManualExposureView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ManualExposureView.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ManualExposureView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ManualExposureView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/ManualExposureView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Views/MulticameraView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraView.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraView.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraView.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/MulticameraView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Views/NotchPresetView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchPresetView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchPresetView.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchPresetView.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchPresetView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchPresetView.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchPresetView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchPresetView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchPresetView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Views/NotchSettingsView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchSettingsView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchSettingsView.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchSettingsView.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchSettingsView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchSettingsView.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchSettingsView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchSettingsView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/NotchSettingsView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Views/StreamingSettingsView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingSettingsView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingSettingsView.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingSettingsView.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingSettingsView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingSettingsView.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingSettingsView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingSettingsView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/StreamingSettingsView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/Views/TimecodeView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeView.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeView.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeView.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeView.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeView.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/TimecodeView~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/WeatherService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WeatherService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WeatherService.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WeatherService.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WeatherService.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WeatherService.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WeatherService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WeatherService.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/WeatherService~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/Sources/main.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/main.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/main.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/main.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/main.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/main.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/main.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/main.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/main~partial.swiftmodule"
+  },
+  "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/notch-macos/build/Notch.build/Debug/Notch.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

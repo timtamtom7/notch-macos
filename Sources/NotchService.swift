@@ -177,6 +177,10 @@ class NotchContentView: NSView {
     override func updateLayer() {
         visualEffectView.layer?.backgroundColor = NSColor.windowBackgroundColor.cgColor
     }
+
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
 }
 
 // MARK: - Notch Widget View (SwiftUI)
@@ -290,6 +294,7 @@ class DateManager: ObservableObject {
 
     deinit {
         timer?.invalidate()
+        NotificationCenter.default.removeObserver(self)
     }
 }
 

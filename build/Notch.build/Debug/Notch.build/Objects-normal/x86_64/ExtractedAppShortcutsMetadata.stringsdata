@@ -1,0 +1,41 @@
+{
+  "version" : 1,
+  "tables" : {
+    "Localizable" : [
+      {
+        "key" : "Get notch info"
+      },
+      {
+        "key" : "Set notch mode to ${mode}"
+      },
+      {
+        "key" : "Toggle ${itemType} in notch bar"
+      }
+    ],
+    "AppShortcuts" : [
+      {
+        "key" : "Get notch info in ${applicationName}",
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 69
+        },
+        "values" : [
+          "Get notch info in ${applicationName}",
+          "Show notch status in ${applicationName}"
+        ]
+      },
+      {
+        "key" : "Set notch mode in ${applicationName}",
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 69
+        },
+        "values" : [
+          "Set notch mode in ${applicationName}",
+          "Change notch bar in ${applicationName}"
+        ]
+      }
+    ]
+  },
+  "source" : "\/Users\/mauriello\/Dev\/notch-macos\/Sources\/Intents\/NotchIntents.swift"
+}

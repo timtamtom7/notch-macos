@@ -25,6 +25,7 @@ final class NotchRecordingService: ObservableObject {
 
     private var timer: Timer?
     private var recordingStartTime: Date?
+    private var accumulatedTime: TimeInterval = 0
 
     func startRecording() {
         state = .recording
@@ -34,31 +35,44 @@ final class NotchRecordingService: ObservableObject {
 
     func pauseRecording() {
         state = .paused
+        if let start = recordingStartTime {
+            accumulatedTime += Date().timeIntervalSince(start)
+        }
+        recordingStartTime = nil
         stopTimer()
     }
 
     func resumeRecording() {
         state = .recording
+        recordingStartTime = Date()
         startTimer()
     }
 
     func stopRecording() {
         state = .processing
+        if let start = recordingStartTime {
+            accumulatedTime += Date().timeIntervalSince(start)
+        }
+        recordingStartTime = nil
         stopTimer()
 
-        // Create clip
+        // Create clip directory if needed
+        let tmpDir = FileManager.default.temporaryDirectory.appendingPathComponent("NotchClips", isDirectory: true)
+        try? FileManager.default.createDirectory(at: tmpDir, withIntermediateDirectories: true)
+
         let clip = NotchRecordingClip(
             id: UUID(),
-            filePath: "/tmp/notch_clip_\(UUID().uuidString).mov",
+            filePath: tmpDir.appendingPathComponent("\(UUID().uuidString).mov").path,
             startTime: 0,
-            endTime: elapsedTime,
+            endTime: accumulatedTime,
             tags: []
         )
         clips.append(clip)
 
+        accumulatedTime = 0
+
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.state = .idle
-            self.elapsedTime = 0
         }
     }
 
@@ -78,8 +92,12 @@ final class NotchRecordingService: ObservableObject {
 
     private func startTimer() {
         timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { [weak self] _ in
-            guard let start = self?.recordingStartTime else { return }
-            self?.elapsedTime = Date().timeIntervalSince(start)
+            guard let self = self else { return }
+            var total = self.accumulatedTime
+            if let start = self.recordingStartTime {
+                total += Date().timeIntervalSince(start)
+            }
+            self.elapsedTime = total
         }
     }
 
