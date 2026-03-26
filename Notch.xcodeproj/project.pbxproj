@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0DED19C6636C4374E96F802C /* HistogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2683749C0F2B147D8397731 /* HistogramView.swift */; };
 		18A9BBBDB5AB6353E5CE467C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F686D727453F7990552A006 /* AppDelegate.swift */; };
+		1B8A7E02DB5C2123AA6CEE1C /* PrivacyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B80EDDFEA721FD54878915 /* PrivacyService.swift */; };
 		225A56F58F7B8B59BD959310 /* NotchWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D563BB4BA9482CCCD6B6A2 /* NotchWidgetsBundle.swift */; };
 		2510C9CC98D47DF58A12380F /* GridOverlaySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21632EBA1F8325E3FCE22675 /* GridOverlaySettingsView.swift */; };
 		321AEECC857A2E69BC13DB19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7B1EA64AF39B6F66CD11A /* ContentView.swift */; };
@@ -34,10 +35,12 @@
 		ACCC68C00B98F60A299011D0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BE1E23A61091C782C65EDF4 /* Localizable.strings */; };
 		B7A015D05E657EE02FAF09FF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16F42304D26B68BB114A3F22 /* Localizable.strings */; };
 		B8524049ABBC96DCFC69D575 /* TimecodeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02852C371A81F3C1A19D9680 /* TimecodeService.swift */; };
+		B8F1BE24F6012174C1C26191 /* SubscriptionTier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C722A027A2C3E021A5EB5957 /* SubscriptionTier.swift */; };
 		C61C39B3E08D33963CAA2B5A /* NotchSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948A92A12601A897094B60E /* NotchSettingsView.swift */; };
 		CEE652A88460525A96DCD928 /* GridOverlayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E16C17CF7A6003CF51077B9 /* GridOverlayService.swift */; };
 		DCEA7DA5176CA0C6B17A23A4 /* NotchWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C19FEB8428071F27C18BBBDD /* NotchWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E00FC0874ED6BE3FF5FE147D /* ExposureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE1A8B269AAB4D918DC0EC /* ExposureService.swift */; };
+		E7628D512EC3056D2DC59CA1 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AA85FD7120DE22D5D8DE63 /* SubscriptionManager.swift */; };
 		E7D4563C0D0939A440B2B408 /* NotchR12R15.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC8854B513CAEBDF59F3477 /* NotchR12R15.swift */; };
 		EB58D2A2DE45EFAF8D6B3C9E /* NotchRecordingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B71B8B6A1FB457D6C3514CA /* NotchRecordingService.swift */; };
 		F58654C56C6F55FFBCFB0DC3 /* MulticameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764EE9EA742C4883DA8C19A3 /* MulticameraService.swift */; };
@@ -83,6 +86,7 @@
 		1A9959BEC233A2FE1A8560AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1AA7B1EA64AF39B6F66CD11A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21632EBA1F8325E3FCE22675 /* GridOverlaySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridOverlaySettingsView.swift; sourceTree = "<group>"; };
+		21AA85FD7120DE22D5D8DE63 /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
 		29FD9C62BDFA6888A2981BF9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		384592DC2AEEC07ADC0CA0B1 /* Notch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notch.entitlements; sourceTree = "<group>"; };
 		3EFE29F70BD54B926A639061 /* BatteryWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryWidget.swift; sourceTree = "<group>"; };
@@ -103,12 +107,14 @@
 		81D7930745196A81B2A64F74 /* iCloudSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudSyncService.swift; sourceTree = "<group>"; };
 		89CA612915EF1542050171E9 /* TimecodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimecodeView.swift; sourceTree = "<group>"; };
 		9F686D727453F7990552A006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4B80EDDFEA721FD54878915 /* PrivacyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyService.swift; sourceTree = "<group>"; };
 		A8CFE6305FE0D776655D84C5 /* CameraSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSettingsService.swift; sourceTree = "<group>"; };
 		B2683749C0F2B147D8397731 /* HistogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramView.swift; sourceTree = "<group>"; };
 		BDC8854B513CAEBDF59F3477 /* NotchR12R15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchR12R15.swift; sourceTree = "<group>"; };
 		BF5F7819C2369FFF3CC95B0A /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		BF8036DDA1AB81E13A35E15A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C19FEB8428071F27C18BBBDD /* NotchWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotchWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C722A027A2C3E021A5EB5957 /* SubscriptionTier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionTier.swift; sourceTree = "<group>"; };
 		D068230DBE67850BF8C7D5E6 /* NotchIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchIntents.swift; sourceTree = "<group>"; };
 		D9CBCFAA9A28D37E8E829911 /* HistogramService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramService.swift; sourceTree = "<group>"; };
 		E0B78DE7A608082B7FC1A827 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
@@ -192,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				BDC8854B513CAEBDF59F3477 /* NotchR12R15.swift */,
+				C722A027A2C3E021A5EB5957 /* SubscriptionTier.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -221,7 +228,9 @@
 				81D7930745196A81B2A64F74 /* iCloudSyncService.swift */,
 				764EE9EA742C4883DA8C19A3 /* MulticameraService.swift */,
 				4B71B8B6A1FB457D6C3514CA /* NotchRecordingService.swift */,
+				A4B80EDDFEA721FD54878915 /* PrivacyService.swift */,
 				745D3CE309A7552EE5978B40 /* StreamingService.swift */,
+				21AA85FD7120DE22D5D8DE63 /* SubscriptionManager.swift */,
 				02852C371A81F3C1A19D9680 /* TimecodeService.swift */,
 				11C31325F84510458514909D /* WidgetDataService.swift */,
 			);
@@ -342,9 +351,12 @@
 				EB58D2A2DE45EFAF8D6B3C9E /* NotchRecordingService.swift in Sources */,
 				3E5A6B50EBC4452010BBCA4A /* NotchService.swift in Sources */,
 				C61C39B3E08D33963CAA2B5A /* NotchSettingsView.swift in Sources */,
+				1B8A7E02DB5C2123AA6CEE1C /* PrivacyService.swift in Sources */,
 				A5C59A33FBA387CE9FBF7628 /* SettingsStore.swift in Sources */,
 				53B62D4340918286406D928C /* StreamingService.swift in Sources */,
 				8A20331F0E71809C95A11320 /* StreamingSettingsView.swift in Sources */,
+				E7628D512EC3056D2DC59CA1 /* SubscriptionManager.swift in Sources */,
+				B8F1BE24F6012174C1C26191 /* SubscriptionTier.swift in Sources */,
 				F7138872A83141B0C373894E /* Theme.swift in Sources */,
 				B8524049ABBC96DCFC69D575 /* TimecodeService.swift in Sources */,
 				3DB6D1DC07A05A630EE1B926 /* TimecodeView.swift in Sources */,
