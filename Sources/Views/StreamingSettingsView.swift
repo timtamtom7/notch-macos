@@ -97,6 +97,15 @@ struct StreamingSettingsView: View {
         .cornerRadius(8)
     }
 
+    private func defaultURL(for type: StreamingDestination.DestinationType) -> String {
+        switch type {
+        case .youtube: return "rtmp://a.rtmp.youtube.com/live2"
+        case .twitch: return "rtmp://live.twitch.tv/app"
+        case .vimeo: return "rtmp://live.twitch.tv/app"
+        case .custom: return ""
+        }
+    }
+
     private var addDestinationSheet: some View {
         VStack(spacing: 16) {
             Text("Add Streaming Destination")
@@ -110,14 +119,11 @@ struct StreamingSettingsView: View {
                         Text(type.rawValue).tag(type)
                     }
                 }
-                .onChange(of: newType) { newType in
-                    if newServerURL.isEmpty {
-                        switch newType {
-                        case .youtube: newServerURL = "rtmp://a.rtmp.youtube.com/live2"
-                        case .twitch: newServerURL = "rtmp://live.twitch.tv/app"
-                        case .vimeo: newServerURL = "rtmp://live.twitch.tv/app"
-                        case .custom: newServerURL = ""
-                        }
+                .onChange(of: newType) { _, newType in
+                    if newServerURL.isEmpty || newServerURL == defaultURL(for: StreamingDestination.DestinationType.youtube) ||
+                       newServerURL == defaultURL(for: StreamingDestination.DestinationType.twitch) ||
+                       newServerURL == defaultURL(for: StreamingDestination.DestinationType.vimeo) {
+                        newServerURL = defaultURL(for: newType)
                     }
                 }
 

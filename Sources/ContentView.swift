@@ -11,7 +11,7 @@ struct PreferencesView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
-            Text("Preferences")
+            Text("Preferences\u{2026}")
                 .font(.title2)
                 .fontWeight(.bold)
                 .padding(.bottom, 8)
@@ -20,19 +20,22 @@ struct PreferencesView: View {
             GroupBox(label: Text("Widgets").fontWeight(.semibold)) {
                 VStack(alignment: .leading, spacing: 12) {
                     Toggle("Date / Time", isOn: $showDate)
-                        .onChange(of: showDate) { newValue in
+                        .accessibilityLabel("Date and time toggle")
+                        .onChange(of: showDate) { _, newValue in
                             SettingsStore.shared.showDate = newValue
                             NotificationCenter.default.post(name: .widgetsDidChange, object: nil)
                         }
 
                     Toggle("Battery", isOn: $showBattery)
-                        .onChange(of: showBattery) { newValue in
+                        .accessibilityLabel("Battery toggle")
+                        .onChange(of: showBattery) { _, newValue in
                             SettingsStore.shared.showBattery = newValue
                             NotificationCenter.default.post(name: .widgetsDidChange, object: nil)
                         }
 
                     Toggle("Weather", isOn: $showWeather)
-                        .onChange(of: showWeather) { newValue in
+                        .accessibilityLabel("Weather toggle")
+                        .onChange(of: showWeather) { _, newValue in
                             SettingsStore.shared.showWeather = newValue
                             NotificationCenter.default.post(name: .widgetsDidChange, object: nil)
                         }
@@ -48,7 +51,8 @@ struct PreferencesView: View {
                         TextField("City name", text: $weatherLocation)
                             .textFieldStyle(.roundedBorder)
                             .frame(width: 200)
-                            .onChange(of: weatherLocation) { newValue in
+                            .accessibilityLabel("Weather location")
+                            .onChange(of: weatherLocation) { _, newValue in
                                 SettingsStore.shared.weatherLocation = newValue
                             }
                     }
@@ -61,7 +65,8 @@ struct PreferencesView: View {
                         }
                         .pickerStyle(.segmented)
                         .frame(width: 200)
-                        .onChange(of: temperatureUnit) { newValue in
+                        .accessibilityLabel("Temperature unit")
+                        .onChange(of: temperatureUnit) { _, newValue in
                             SettingsStore.shared.temperatureUnit = newValue
                         }
                     }
@@ -76,7 +81,8 @@ struct PreferencesView: View {
                         Text("Notch Bar Opacity:")
                         Slider(value: $notchBarOpacity, in: 0.5...1.0, step: 0.05)
                             .frame(width: 200)
-                            .onChange(of: notchBarOpacity) { newValue in
+                            .accessibilityLabel("Notch bar opacity")
+                            .onChange(of: notchBarOpacity) { _, newValue in
                                 SettingsStore.shared.notchBarOpacity = newValue
                             }
                         Text("\(Int(notchBarOpacity * 100))%")
@@ -88,7 +94,8 @@ struct PreferencesView: View {
 
             // Launch at Login
             Toggle("Launch at Login", isOn: $launchAtLogin)
-                .onChange(of: launchAtLogin) { _ in
+                .accessibilityLabel("Launch at login toggle")
+                .onChange(of: launchAtLogin) { _, _ in
                     // TODO: Implement launch at login using SMAppService (macOS 13+)
                 }
 

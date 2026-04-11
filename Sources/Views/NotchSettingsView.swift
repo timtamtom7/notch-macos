@@ -26,7 +26,8 @@ struct NotchSettingsView: View {
                     }
                 }
                 .labelsHidden()
-                .onChange(of: cameraService.settings.deviceId) { _ in
+                .accessibilityLabel("Camera selection")
+                .onChange(of: cameraService.settings.deviceId) { _, _ in
                     cameraService.saveSettings()
                 }
 
@@ -43,7 +44,8 @@ struct NotchSettingsView: View {
                     }
                 }
                 .labelsHidden()
-                .onChange(of: cameraService.settings.resolution) { _ in
+                .accessibilityLabel("Resolution picker")
+                .onChange(of: cameraService.settings.resolution) { _, _ in
                     cameraService.saveSettings()
                 }
 
@@ -55,7 +57,8 @@ struct NotchSettingsView: View {
                     Text("120 fps").tag(120)
                 }
                 .labelsHidden()
-                .onChange(of: cameraService.settings.frameRate) { _ in
+                .accessibilityLabel("Frame rate picker")
+                .onChange(of: cameraService.settings.frameRate) { _, _ in
                     cameraService.saveSettings()
                 }
 
@@ -63,7 +66,8 @@ struct NotchSettingsView: View {
 
                 // HDR
                 Toggle("Enable HDR", isOn: $cameraService.settings.enableHDR)
-                    .onChange(of: cameraService.settings.enableHDR) { _ in
+                    .accessibilityLabel("Enable HDR toggle")
+                    .onChange(of: cameraService.settings.enableHDR) { _, _ in
                         cameraService.saveSettings()
                     }
 
@@ -74,7 +78,8 @@ struct NotchSettingsView: View {
                     Text(String(format: "%.1f", cameraService.settings.exposureCompensation))
                         .frame(width: 40)
                 }
-                .onChange(of: cameraService.settings.exposureCompensation) { _ in
+                .accessibilityLabel("Exposure compensation")
+                .onChange(of: cameraService.settings.exposureCompensation) { _, _ in
                     cameraService.saveSettings()
                 }
 
@@ -85,7 +90,8 @@ struct NotchSettingsView: View {
                     }
                 }
                 .labelsHidden()
-                .onChange(of: cameraService.settings.whiteBalance) { _ in
+                .accessibilityLabel("White balance picker")
+                .onChange(of: cameraService.settings.whiteBalance) { _, _ in
                     cameraService.saveSettings()
                 }
 
@@ -96,7 +102,8 @@ struct NotchSettingsView: View {
                     }
                 }
                 .labelsHidden()
-                .onChange(of: cameraService.settings.focusMode) { _ in
+                .accessibilityLabel("Focus mode picker")
+                .onChange(of: cameraService.settings.focusMode) { _, _ in
                     cameraService.saveSettings()
                 }
 
@@ -107,7 +114,8 @@ struct NotchSettingsView: View {
                     Text(String(format: "%.1fx", cameraService.settings.zoomFactor))
                         .frame(width: 50)
                 }
-                .onChange(of: cameraService.settings.zoomFactor) { _ in
+                .accessibilityLabel("Zoom factor")
+                .onChange(of: cameraService.settings.zoomFactor) { _, _ in
                     cameraService.saveSettings()
                 }
             }

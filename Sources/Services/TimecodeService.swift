@@ -68,6 +68,10 @@ final class TimecodeService: ObservableObject {
         currentTimecode = tc
     }
 
+    deinit {
+        stop()
+    }
+
     private func incrementFrame() {
         currentTimecode.frames += 1
         if currentTimecode.frames >= frameRate {

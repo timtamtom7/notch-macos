@@ -29,6 +29,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         if let button = statusItem.button {
             button.image = NSImage(systemSymbolName: "menubar.star.fill", accessibilityDescription: "Notch")
+            button.accessibilityLabel = "Notch menu"
         }
 
         let menu = NSMenu()

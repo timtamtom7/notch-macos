@@ -32,7 +32,8 @@ struct GridOverlaySettingsView: View {
                 }
             }
             .labelsHidden()
-            .onChange(of: gridService.settings.gridType) { _ in
+            .accessibilityLabel("Grid type picker")
+            .onChange(of: gridService.settings.gridType) { _, _ in
                 gridService.save()
             }
 
@@ -50,13 +51,15 @@ struct GridOverlaySettingsView: View {
                             gridService.settings.gridColor = color
                             gridService.save()
                         }
+                        .accessibilityLabel("Grid overlay color \(color)")
                 }
             }
 
             HStack {
                 Text("Opacity:")
                 Slider(value: $gridService.settings.gridOpacity, in: 0.1...1.0)
-                    .onChange(of: gridService.settings.gridOpacity) { _ in
+                    .accessibilityLabel("Grid opacity slider")
+                    .onChange(of: gridService.settings.gridOpacity) { _, _ in
                         gridService.save()
                     }
                 Text("\(Int(gridService.settings.gridOpacity * 100))%")
@@ -64,7 +67,8 @@ struct GridOverlaySettingsView: View {
             }
 
             Toggle("Show Safe Zones (action/subs)", isOn: $gridService.settings.showSafeZones)
-                .onChange(of: gridService.settings.showSafeZones) { _ in
+                .accessibilityLabel("Show safe zones toggle")
+                .onChange(of: gridService.settings.showSafeZones) { _, _ in
                     gridService.save()
                 }
 

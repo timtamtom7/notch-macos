@@ -40,6 +40,7 @@ final class MulticameraService: ObservableObject {
     }
 
     private let key = "multicameraAngles"
+    private var saveTask: Task<Void, Never>?
 
     init() {
         loadAngles()
@@ -47,18 +48,18 @@ final class MulticameraService: ObservableObject {
 
     func addAngle(_ angle: MulticameraAngle) {
         angles.append(angle)
-        saveAngles()
+        debouncedSave()
     }
 
     func removeAngle(id: UUID) {
         angles.removeAll { $0.id == id }
-        saveAngles()
+        debouncedSave()
     }
 
     func updateAngle(_ angle: MulticameraAngle) {
         if let index = angles.firstIndex(where: { $0.id == angle.id }) {
             angles[index] = angle
-            saveAngles()
+            debouncedSave()
         }
     }
 
@@ -70,10 +71,19 @@ final class MulticameraService: ObservableObject {
 
     func setLayout(_ layout: Layout) {
         self.layout = layout
-        saveAngles()
+        debouncedSave()
     }
 
-    private func loadAngles() {
+    private func debouncedSave() {
+        saveTask?.cancel()
+        saveTask = Task { @MainActor in
+            try? await Task.sleep(nanoseconds: 500_000_000)
+            guard !Task.isCancelled else { return }
+            self.saveAngles()
+        }
+    }
+
+    private func saveAngles() {
         guard let data = UserDefaults.standard.data(forKey: key),
               let decoded = try? JSONDecoder().decode([MulticameraAngle].self, from: data) else {
             return

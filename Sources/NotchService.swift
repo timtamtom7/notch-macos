@@ -177,6 +177,10 @@ class NotchContentView: NSView {
     override func updateLayer() {
         visualEffectView.layer?.backgroundColor = NSColor.windowBackgroundColor.cgColor
     }
+
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
 }
 
 // MARK: - Notch Widget View (SwiftUI)
@@ -264,16 +268,24 @@ class DateManager: ObservableObject {
     @Published var currentDate = Date()
     private var timer: Timer?
 
-    var formattedTime: String {
+    private static let timeFormatter: DateFormatter = {
         let formatter = DateFormatter()
         formatter.dateFormat = "HH:mm"
-        return formatter.string(from: currentDate)
+        return formatter
+    }()
+
+    private static let dayFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "EEE"
+        return formatter
+    }()
+
+    var formattedTime: String {
+        Self.timeFormatter.string(from: currentDate)
     }
 
     var formattedDay: String {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "EEE"
-        return formatter.string(from: currentDate)
+        Self.dayFormatter.string(from: currentDate)
     }
 
     init() {

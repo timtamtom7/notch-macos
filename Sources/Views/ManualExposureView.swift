@@ -9,7 +9,8 @@ struct ManualExposureView: View {
                 .font(.headline)
 
             Toggle("Enable Manual Mode", isOn: $exposureService.manualExposureEnabled)
-                .onChange(of: exposureService.manualExposureEnabled) { _ in
+                .accessibilityLabel("Enable manual mode toggle")
+                .onChange(of: exposureService.manualExposureEnabled) { _, _ in
                     exposureService.saveSettings()
                 }
 
@@ -28,7 +29,8 @@ struct ManualExposureView: View {
                         set: { exposureService.currentISO = Int($0) }
                     ), in: 50...12800, step: 1)
                     .disabled(!exposureService.manualExposureEnabled)
-                    .onChange(of: exposureService.currentISO) { _ in
+                    .accessibilityLabel("ISO: \(exposureService.currentISO)")
+                    .onChange(of: exposureService.currentISO) { _, _ in
                         exposureService.saveSettings()
                     }
                 }
@@ -57,7 +59,8 @@ struct ManualExposureView: View {
                     }
                     .pickerStyle(.menu)
                     .labelsHidden()
-                    .onChange(of: exposureService.currentShutterSpeed) { _ in
+                    .accessibilityLabel("Shutter speed picker")
+                    .onChange(of: exposureService.currentShutterSpeed) { _, _ in
                         exposureService.saveSettings()
                     }
                 }
@@ -73,7 +76,8 @@ struct ManualExposureView: View {
                     }
                     Slider(value: $exposureService.currentAperture, in: 1.0...16.0, step: 0.1)
                         .disabled(!exposureService.manualExposureEnabled)
-                        .onChange(of: exposureService.currentAperture) { _ in
+                        .accessibilityLabel("Aperture: f/\(String(format: "%.1f", exposureService.currentAperture))")
+                        .onChange(of: exposureService.currentAperture) { _, _ in
                             exposureService.saveSettings()
                         }
                 }
@@ -92,7 +96,8 @@ struct ManualExposureView: View {
                         set: { exposureService.currentWhiteBalance = Int($0) }
                     ), in: 2700...7500, step: 100)
                         .disabled(!exposureService.manualExposureEnabled)
-                        .onChange(of: exposureService.currentWhiteBalance) { _ in
+                        .accessibilityLabel("White balance: \(exposureService.currentWhiteBalance) Kelvin")
+                        .onChange(of: exposureService.currentWhiteBalance) { _, _ in
                             exposureService.saveSettings()
                         }
 

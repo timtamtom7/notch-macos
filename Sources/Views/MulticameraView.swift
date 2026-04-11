@@ -17,7 +17,7 @@ struct MulticameraView: View {
                     }
                 }
                 .pickerStyle(.segmented)
-                .onChange(of: multicamService.layout) { newLayout in
+                .onChange(of: multicamService.layout) { _, newLayout in
                     multicamService.setLayout(newLayout)
                 }
 
