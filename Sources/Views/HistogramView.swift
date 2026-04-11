@@ -34,6 +34,8 @@ struct HistogramView: View {
                         Spacer()
                     }
                     .padding(4)
+                    .accessibilityElement(children: .ignore)
+                    .accessibilityLabel("Warning: image clipping detected")
                 }
             }
             .cornerRadius(4)

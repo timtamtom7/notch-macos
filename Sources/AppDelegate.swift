@@ -35,6 +35,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let menu = NSMenu()
 
         let toggleItem = NSMenuItem(title: "Toggle Notch Bar", action: #selector(toggleNotchBar), keyEquivalent: "t")
+        toggleItem.accessibilityLabel = "Toggle Notch Bar"
         menu.addItem(toggleItem)
 
         menu.addItem(NSMenuItem.separator())
@@ -58,7 +59,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         menu.addItem(NSMenuItem.separator())
         menu.addItem(NSMenuItem(title: "Preferences...", action: #selector(showPreferences), keyEquivalent: ","))
-        menu.addItem(NSMenuItem(title: "About Notch", action: #selector(showAbout), keyEquivalent: ""))
+        menu.addItem(NSMenuItem(title: "About Notch\u{2026}", action: #selector(showAbout), keyEquivalent: ""))
         menu.addItem(NSMenuItem.separator())
         menu.addItem(NSMenuItem(title: "Quit Notch", action: #selector(quitApp), keyEquivalent: "q"))
 

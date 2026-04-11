@@ -227,6 +227,8 @@ struct DateWidgetView: View {
                 .font(.system(size: 11, weight: .regular))
                 .foregroundColor(.secondary)
         }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("\(dateManager.formattedTime) \(dateManager.formattedDay)")
     }
 }
 
@@ -243,6 +245,8 @@ struct BatteryWidgetView: View {
                 .font(.system(size: 13, weight: .medium, design: .monospaced))
                 .foregroundColor(.primary)
         }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("\(batteryManager.percentage) percent\(batteryManager.isCharging ? ", charging" : "")")
     }
 }
 
@@ -259,6 +263,8 @@ struct WeatherWidgetView: View {
                 .font(.system(size: 13, weight: .medium))
                 .foregroundColor(.primary)
         }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("\(weatherManager.condition), \(weatherManager.formattedTemp)")
     }
 }
 
