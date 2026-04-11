@@ -29,13 +29,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         if let button = statusItem.button {
             button.image = NSImage(systemSymbolName: "menubar.star.fill", accessibilityDescription: "Notch")
-            button.accessibilityLabel = "Notch menu"
         }
 
         let menu = NSMenu()
 
         let toggleItem = NSMenuItem(title: "Toggle Notch Bar", action: #selector(toggleNotchBar), keyEquivalent: "t")
-        toggleItem.accessibilityLabel = "Toggle Notch Bar"
         menu.addItem(toggleItem)
 
         menu.addItem(NSMenuItem.separator())

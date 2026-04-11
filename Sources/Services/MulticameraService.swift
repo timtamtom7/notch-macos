@@ -83,7 +83,7 @@ final class MulticameraService: ObservableObject {
         }
     }
 
-    private func saveAngles() {
+    private func loadAngles() {
         guard let data = UserDefaults.standard.data(forKey: key),
               let decoded = try? JSONDecoder().decode([MulticameraAngle].self, from: data) else {
             return
